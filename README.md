@@ -1,3 +1,3 @@
 ## Getting Started With Next Js
 
-l Next js
+learning Next js
