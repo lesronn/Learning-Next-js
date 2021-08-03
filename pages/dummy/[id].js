@@ -7,10 +7,8 @@ export const getStaticPaths = async () => {
     };
   });
   return {
-    props: {
-      paths,
-      fallback: false,
-    },
+    paths,
+    fallback: false,
   };
 };
 
@@ -24,7 +22,7 @@ export const getStaticProps = async (context) => {
     },
   };
 };
-const Details = (dum) => {
+const Details = ({ dum }) => {
   return (
     <div>
       <h1>{dum.name}</h1>
